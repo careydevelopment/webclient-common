@@ -1,4 +1,4 @@
-package us.careydevelopment.model.api;
+package us.careydevelopment.model.api.youtube;
 
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 

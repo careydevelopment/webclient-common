@@ -1,4 +1,4 @@
-package us.careydevelopment.model.api;
+package us.careydevelopment.model.api.youtube;
 
 import java.math.BigInteger;
 import java.util.List;
@@ -81,10 +81,10 @@ public class Video {
     public void setChannel(Channel channel) {
         this.channel = channel;
     }
+    
     public String toString() {
         return ReflectionToStringBuilder.toString(this);
     }    
-
 }
 
 
