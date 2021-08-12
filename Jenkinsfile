@@ -6,7 +6,7 @@ node {
 		stage('Clone repository') {
 	    	git branch: branch,
 	        	credentialsId: 'GitHub Credentials',
-	        	url: 'https://github.com/careydevelopmentapi-flyweights.git'
+	        	url: 'https://github.com/careydevelopment/api-flyweights.git'
 	    } 
 	
 		//Doing manual builds for now as this requires access to PGP
