@@ -5,7 +5,7 @@
     <url>https://github.com/careydevelopment/api-flyweights</url>
     <name>API Flyweights</name>
     <description>Lightweight objects for downstream APIs.</description>
-    <version>1.1.0-RELEASE</version>
+    <version>1.2.0-RELEASE</version>
 
     <dependencies>
         <dependency>

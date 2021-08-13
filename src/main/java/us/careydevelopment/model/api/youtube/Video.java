@@ -6,9 +6,9 @@ import java.util.List;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 
 
-public class Video {
+public abstract class Video {
 
-    private String id;
+    private String videoId;
     private String description;
     private Long publishedAt;
     private List<String> tags;
@@ -18,12 +18,14 @@ public class Video {
     private BigInteger likeCount;
     private String thumbnailUrl;
     private Channel channel;
+    private BigInteger viewCount;
     
-    public String getId() {
-        return id;
+
+    public String getVideoId() {
+        return videoId;
     }
-    public void setId(String id) {
-        this.id = id;
+    public void setVideoId(String videoId) {
+        this.videoId = videoId;
     }
     public String getDescription() {
         return description;
@@ -74,7 +76,6 @@ public class Video {
         this.thumbnailUrl = thumbnailUrl;
     }
     
-    
     public Channel getChannel() {
         return channel;
     }
@@ -82,6 +83,12 @@ public class Video {
         this.channel = channel;
     }
     
+    public BigInteger getViewCount() {
+        return viewCount;
+    }
+    public void setViewCount(BigInteger viewCount) {
+        this.viewCount = viewCount;
+    }
     public String toString() {
         return ReflectionToStringBuilder.toString(this);
     }    

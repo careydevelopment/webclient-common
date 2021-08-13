@@ -2,7 +2,7 @@ package us.careydevelopment.model.api.reddit;
 
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 
-public class RedditVideo extends RedditContent {
+public abstract class BaseRedditVideo extends RedditContent {
 
     private Integer height;
     private Integer width;

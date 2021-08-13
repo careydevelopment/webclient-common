@@ -13,6 +13,7 @@ public abstract class RedditContent {
     private String permalink;
     private String subreddit;
     private String title;
+    private String thumbnail;
     
     public BigDecimal getUpvoteRatio() {
         return upvoteRatio;
@@ -57,6 +58,13 @@ public abstract class RedditContent {
         this.title = title;
     }
     
+    
+    public String getThumbnail() {
+        return thumbnail;
+    }
+    public void setThumbnail(String thumbnail) {
+        this.thumbnail = thumbnail;
+    }
     public String toString() {
         return ReflectionToStringBuilder.toString(this);
     }
