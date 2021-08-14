@@ -7,6 +7,7 @@ public class RedditLink extends RedditContent {
     private String url;
     private String description;
     private String siteName;
+    private String subject;
     
     public String getUrl() {
         return url;
@@ -27,6 +28,13 @@ public class RedditLink extends RedditContent {
     }
     public void setSiteName(String siteName) {
         this.siteName = siteName;
+    }
+    
+    public String getSubject() {
+        return subject;
+    }
+    public void setSubject(String subject) {
+        this.subject = subject;
     }
     public String toString() {
         return ReflectionToStringBuilder.toString(this);

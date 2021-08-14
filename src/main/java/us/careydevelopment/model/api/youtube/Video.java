@@ -13,12 +13,12 @@ public abstract class Video {
     private Long publishedAt;
     private List<String> tags;
     private String title;
-    private BigInteger commentCount;
-    private BigInteger dislikeCount;
-    private BigInteger likeCount;
+    private Integer commentCount;
+    private Integer dislikeCount;
+    private Integer likeCount;
     private String thumbnailUrl;
     private Channel channel;
-    private BigInteger viewCount;
+    private Integer viewCount;
     
 
     public String getVideoId() {
@@ -51,22 +51,23 @@ public abstract class Video {
     public void setTitle(String title) {
         this.title = title;
     }
-    public BigInteger getCommentCount() {
+
+    public Integer getCommentCount() {
         return commentCount;
     }
-    public void setCommentCount(BigInteger commentCount) {
+    public void setCommentCount(Integer commentCount) {
         this.commentCount = commentCount;
     }
-    public BigInteger getDislikeCount() {
+    public Integer getDislikeCount() {
         return dislikeCount;
     }
-    public void setDislikeCount(BigInteger dislikeCount) {
+    public void setDislikeCount(Integer dislikeCount) {
         this.dislikeCount = dislikeCount;
     }
-    public BigInteger getLikeCount() {
+    public Integer getLikeCount() {
         return likeCount;
     }
-    public void setLikeCount(BigInteger likeCount) {
+    public void setLikeCount(Integer likeCount) {
         this.likeCount = likeCount;
     }
     public String getThumbnailUrl() {
@@ -83,10 +84,10 @@ public abstract class Video {
         this.channel = channel;
     }
     
-    public BigInteger getViewCount() {
+    public Integer getViewCount() {
         return viewCount;
     }
-    public void setViewCount(BigInteger viewCount) {
+    public void setViewCount(Integer viewCount) {
         this.viewCount = viewCount;
     }
     public String toString() {
