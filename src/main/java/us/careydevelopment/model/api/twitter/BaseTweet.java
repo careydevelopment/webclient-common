@@ -5,16 +5,16 @@ import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 public abstract class BaseTweet  {
     
     private String tweetId;
-    private String author;
+    private TwitterUser author;
     private String text;
     private Long createdAt;
     private Integer score;
     private ReferencedTweet referencedTweet;
     
-    public String getAuthor() {
+    public TwitterUser getAuthor() {
         return author;
     }
-    public void setAuthor(String author) {
+    public void setAuthor(TwitterUser author) {
         this.author = author;
     }
     public String getText() {

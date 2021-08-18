@@ -3,7 +3,7 @@
 # Carey Development API Flyweights 
 ![](https://img.shields.io/badge/jdk-11-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) 
 ![](https://img.shields.io/badge/maven-3.6.3-blue.svg)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/us.careydevelopment.model.api/api-flyweights/badge.svg)](https://search.maven.org/artifact/us.careydevelopment.model.api/api-flyweights/1.3.0-RELEASE/jar)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/us.careydevelopment.model.api/api-flyweights/badge.svg)](https://search.maven.org/artifact/us.careydevelopment.model.api/api-flyweights/1.4.0-RELEASE/jar)
 
 
 
@@ -21,7 +21,7 @@ You can pull it from the central Maven repositories:
  <dependency>
     <groupId>us.careydevelopment.model.api</groupId>
     <artifactId>api-flyweights</artifactId>
-    <version>1.3.0-RELEASE</version>
+    <version>1.4.0-RELEASE</version>
  </dependency>
 ```
 
