@@ -6,7 +6,7 @@ node {
         stage('Clone repository') {
             git branch: branch,
                 credentialsId: 'GitHub Credentials',
-                url: 'https://github.com/careydevelopment/webclient-commons.git'
+                url: 'https://github.com/careydevelopment/webclient-common.git'
         } 	
     } catch (e) {
         echo 'Error occurred during build process!'
