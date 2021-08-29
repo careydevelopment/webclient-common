@@ -15,7 +15,7 @@ You can pull it from the central Maven repositories:
 
 ```xml
  <dependency>
-    <groupId>us.careydevelopment.model.api</groupId>
+    <groupId>us.careydevelopment.util</groupId>
     <artifactId>webclient-common</artifactId>
     <version>1.0.0-RELEASE</version>
  </dependency>
