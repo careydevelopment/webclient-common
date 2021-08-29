@@ -1,13 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>us.careydevelopment.model.api</groupId>
-    <artifactId>api-flyweights</artifactId>
-    <url>https://github.com/careydevelopment/api-flyweights</url>
-    <name>API Flyweights</name>
-    <description>Lightweight objects for downstream APIs.</description>
-    <version>1.4.0-RELEASE</version>
+    <groupId>us.careydevelopment.util</groupId>
+    <artifactId>webclient-common</artifactId>
+    <url>https://github.com/careydevelopment/webclient-common</url>
+    <name>WebClient Common</name>
+    <description>Convenience classes for use with Spring WebFlux</description>
+    <version>1.0.0-SNAPSHOT</version>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+            <version>2.5.4</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
@@ -111,7 +116,7 @@
     <licenses>
         <license>
             <name>MIT License</name>
-            <url>https://github.com/careydevelopment/api-flyweights/blob/main/LICENSE</url>
+            <url>https://github.com/careydevelopment/webclient-common/blob/main/LICENSE</url>
         </license>
     </licenses>
     
@@ -123,9 +128,9 @@
     </developers>
     
     <scm>
-        <connection>scm:git:git@github.com:careydevelopment/api-flyweights.git</connection>
-        <developerConnection>scm:git:ssh://github.com:careydevelopment/api-flyweights.git</developerConnection>
-        <url>https://github.com/careydevelopment/api-flyweights</url>
+        <connection>scm:git:git@github.com:careydevelopment/webclient-common.git</connection>
+        <developerConnection>scm:git:ssh://github.com:careydevelopment/webclient-common.git</developerConnection>
+        <url>https://github.com/careydevelopment/webclient-common</url>
     </scm>
     
     <distributionManagement>

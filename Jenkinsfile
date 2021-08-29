@@ -6,15 +6,8 @@ node {
         stage('Clone repository') {
             git branch: branch,
                 credentialsId: 'GitHub Credentials',
-                url: 'https://github.com/careydevelopment/api-flyweights.git'
-        } 
-	
-        //Doing manual builds for now as this requires access to PGP
-        //stage('Build JAR') {
-        //	docker.image('maven:3.6.3-jdk-11').inside('-v /root/.m2:/root/.m2') {
-        //    	sh 'mvn -B -Dmaven.test.skip=true clean package'
-        //	}
-        //}	     
+                url: 'https://github.com/careydevelopment/webclient-commons.git'
+        } 	
     } catch (e) {
         echo 'Error occurred during build process!'
         echo e.toString()
